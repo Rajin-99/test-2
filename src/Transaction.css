@@ -1,0 +1,87 @@
+/* Common Button Styles */
+.btn-custom {
+  background-color: #065c70; /* Retained color for primary buttons */
+  color: #ffffff;
+  border: none; /* Remove border */
+  border-radius: 4px; /* Add rounded corners */
+  padding: 12px 24px; /* Consistent padding */
+  font-size: 15px; /* Consistent font size */
+  font-weight: 500; /* Slightly bold text */
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+.btn-custom:hover {
+  background-color: #054a5d; /* Darker shade for hover effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+.btn-custom:active {
+  background-color: #043a4f; /* Even darker shade when button is pressed */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Reduce shadow on press */
+}
+
+.btn-custom:disabled {
+  background-color: #c0c0c0; /* Gray color for disabled state */
+  cursor: not-allowed;
+}
+
+/* Button Group Styles */
+.button-group {
+  display: flex;
+  gap: 10px; /* Space between buttons */
+  align-items: center;
+}
+
+/* Secondary Button Styles (Cancel) */
+.btn-secondary {
+  background-color: #f0f0f0; /* Light gray for secondary button */
+  color: #065c70; /* Text color matching primary button */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Add rounded corners */
+  padding: 12px 24px; /* Consistent padding */
+  font-size: 15px; /* Consistent font size */
+  font-weight: 500; /* Slightly bold text */
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+.btn-secondary:hover {
+  background-color: #e0e0e0; /* Slightly darker gray for hover effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+.btn-secondary:active {
+  background-color: #d0d0d0; /* Even darker gray when button is pressed */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Reduce shadow on press */
+}
+
+.btn-secondary:disabled {
+  background-color: #c0c0c0; /* Gray color for disabled state */
+  cursor: not-allowed;
+}
+/* Transaction.css */
+
+.btn-logout {
+  background-color: #065c70; /* Set background color */
+  color: white; /* Set text color */
+  border: none; /* Remove border */
+  padding: 5px 10px; /* Adjust padding for smaller size */
+  font-size: 14px; /* Adjust font size */
+  cursor: pointer; /* Change cursor on hover */
+  border-radius: 4px; /* Optional: add slight rounding to corners */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.btn-logout:hover {
+  background-color: #054d5c; /* Darker shade for hover effect */
+}
+
+/* Additional styles for form and table */
+.table {
+  width: 100%; /* Ensure the table takes full width */
+}
+
+.transaction-table th, .transaction-table td {
+  text-align: center; /* Center-align table text */
+}
